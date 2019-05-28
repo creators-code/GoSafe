@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="388dp"
+        android:layout_height="58dp"
+        android:text="\n Terms of Service and Privacy Policy"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="597dp"
+        android:text="Welcome and Thankyou for choosing our app. These terms of services and user agreement which also includes and hereby incorporates the privacy policy is a legally binding agreement and you governing your use of the app. Unless you accept this agreement otherwise you have no right or authorization to use any part of the services which requires you to be a registered user. By checking the 'I have read and agreed to the terms of service and user agreement' checkbox and completing the registeration process, or continue to use or access any of the services as a registered user. \n \n This privacy policy explainswhat information of yours will be collected by us when you access the app and other services, how the information will be used, how you can control the collection. correction and deletion of such information. We will not use or share  your information with anyone except someone described in the privacy policy. This privacy policy incorporated into, and is subject to, our terms of use and user license agreement."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88"
+        android:layout_below="@+id/textView"/>
+    />
+</RelativeLayout>
